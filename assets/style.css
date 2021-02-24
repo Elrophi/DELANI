@@ -1,0 +1,152 @@
+html{
+    scroll-behavior: smooth;
+}
+.top{
+    background-image: url(./backgrounds/h_img.jpg);
+    background-size: cover;
+    padding-top: 10%;
+    text-align: center;
+    background-position: center center;
+    max-width: 100%;
+    object-fit: cover;
+    color: white;
+
+}
+
+.logo{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+.top h1{
+    padding: 5px;
+    margin: 5px;
+}
+.top .h-top{
+    padding-top: 52px;
+}
+.top p{
+    padding: 2px;
+    font-size: 15px;
+}
+
+.mouse-clicker{
+    margin-top: 7%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+}
+
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    60%{
+        transform: translateY(-15%);
+    }
+}
+
+.about-us{
+    padding-bottom: 30px;
+    padding-top: 40px;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+.about-us h1{
+    font-size: 50px;
+}
+
+.service{
+    background-image: url(./backgrounds/s_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    object-fit: cover;
+    max-width: 100%;
+    color: white;
+}
+.service h1{
+    font-size: 50px;
+}
+
+.wwd{
+    padding-top: 40px;
+}
+.wwd p:hover{
+    cursor: pointer;
+}
+
+.portfolio h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 5%;
+}
+.portfolio img{
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 10%;
+}
+
+.contact{
+    background-image: url(./backgrounds/c_image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+    object-fit: cover;
+    max-width: 100%;
+    color: white;
+}
+.contact h1{
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+.form{
+    margin-top: 5%;
+    /* padding-top: 20%; */
+}
+input[type="text"]{
+    background: transparent;
+    border: 2px solid white;
+}
+input[type="text"]:focus{
+    background: transparent;
+    border: none;
+    /* outline: none; */
+}
+textarea:focus, input:focus{
+    outline: none;
+    background: transparent;
+    color: white;
+}
+.message{
+    margin-top: 2%;
+}
+.mess{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.form-control::placeholder{
+    color:white;
+    opacity: 1;
+}
+
+.footer{
+    color: black;
+}
+/* .responsive-img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+} */
