@@ -49,5 +49,5 @@ $(document).ready(functioin(){
 ---
 
 ### Copyright and License
-[MIT License]("https://github.com/Elrophi/DELANI/blob/master/LICENSE")
+[MIT License](https://github.com/Elrophi/DELANI/blob/master/LICENSE)
 
