@@ -33,3 +33,11 @@ $(document).ready(function(){
         $('#prod-image').slideDown('1500');
     });
 });
+
+$(document).ready(function(){
+    $('#one').mouseover(function(){
+        $('#overlay1').show();
+    }).mouseout(function(){
+        $('#overlay1').hide();
+    });
+});
