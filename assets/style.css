@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Reggae+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -99,7 +100,11 @@ html{
 }
 
 .wwd p{
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wwd h5{
+    font-family: 'Reggae One', cursive;
 }
 
 .portfolio h1{
@@ -162,6 +167,14 @@ textarea:focus, input:focus{
 
 .footer{
     color: black;
+}
+
+.footer h3{
+    font-family: 'Reggae One', cursive;
+   
+}
+.footer p{
+    font-family: 'Reggae One', cursive;
 }
 /* .responsive-img {
     max-width: 100%;
