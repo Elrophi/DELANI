@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Reggae+One&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -23,6 +25,7 @@ html{
 .top h1{
     padding: 5px;
     margin: 5px;
+    font-family:'Reggae One', cursive; 
 }
 .top .h-top{
     padding-top: 52px;
@@ -30,6 +33,7 @@ html{
 .top p{
     padding: 2px;
     font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mouse-clicker{
@@ -61,6 +65,11 @@ html{
 }
 .about-us h1{
     font-size: 50px;
+    font-family: 'Reggae One', cursive;
+}
+
+.about-us p{
+    font-family: 'Montserrat', sans-serif;;
 }
 
 .service{
@@ -75,6 +84,11 @@ html{
 }
 .service h1{
     font-size: 50px;
+    font-family: 'Reggae One', cursive;
+}
+
+.service p{
+    font-family: 'Montserrat', sans-serif;;
 }
 
 .wwd{
@@ -84,10 +98,15 @@ html{
     cursor: pointer;
 }
 
+.wwd p{
+    font-family: 'Montserrat', sans-serif;;
+}
+
 .portfolio h1{
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 5%;
+    font-family: 'Reggae One', cursive;
 }
 .portfolio img{
     max-height: 100%;
@@ -108,6 +127,7 @@ html{
 .contact h1{
     padding-top: 0;
     padding-bottom: 20px;
+    font-family: 'Reggae One', cursive;
 }
 .form{
     margin-top: 5%;
