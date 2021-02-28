@@ -184,9 +184,8 @@ textarea:focus, input:focus{
     position: relative;
 } */
 
-
-/* overlay */
-#overlay1{
+/* portfolio */
+#lay1, #lay2, #lay3, #lay4, #lay5, #lay6, #lay7, #lay8{
     display: none;
   color: black;
   width: 100%;
@@ -201,3 +200,15 @@ textarea:focus, input:focus{
   padding-top: 50%;
   font-family: 'Delius Swash Caps', cursive;
 }
+
+
+/* mailchimp form styled */
+#mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
+.mc-field-group input { background:transparent; color: white; }
+.mc-field-group input::placeholder { opacity: 1; color: white; }
+.mc-field-group textarea{background: transparent; color: white; border: 2px solid white;}
+.mc-field-group textarea::placeholder{opacity: 1;; color: white;}
+.mc-field-group textarea:focus{opacity: 1;; color: white;}
+.email:focus{background: transparent; border: 2px solid white;}
+.text:focus{background: transparent;}
+/* .clear .button{background: green;} */
