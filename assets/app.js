@@ -100,10 +100,11 @@ $(document).ready(function(){
 
 
 function formMessage(){
+    let name = document.getElementById('mce-FNAME').value
     if(document.getElementById('mce-FNAME').value=="")
     alert("please fill in the blanks! Thank you......");
     else{
-        alert("Thank you for filling! You are now subscribed")
+        alert(name + "Thank you for contacting us! You are now subscribed")
     }
 }
 
