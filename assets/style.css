@@ -136,7 +136,6 @@ html{
 }
 .form{
     margin-top: 5%;
-    /* padding-top: 20%; */
 }
 input[type="text"]{
     background: transparent;
@@ -145,7 +144,6 @@ input[type="text"]{
 input[type="text"]:focus{
     background: transparent;
     border: none;
-    /* outline: none; */
 }
 textarea:focus, input:focus{
     outline: none;
@@ -176,13 +174,6 @@ textarea:focus, input:focus{
 .footer p{
     font-family: 'Reggae One', cursive;
 }
-/* .responsive-img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-    object-fit: cover;
-    position: relative;
-} */
 
 /* portfolio */
 #one,#two,#three,#four,#five,#six,#seven,#eight{
@@ -195,14 +186,16 @@ textarea:focus, input:focus{
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 30%; /* Adjust this value to move the positioned div up and down */
+    top: 30%; 
     text-align: center;
     width: 72%; 
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     background-color: rgba(0,0,0,0.5);
-    /* opacity: 50; */
+    font-family: 'Reggae One', cursive;
 }
+
+
 
 /* mailchimp form styled */
 #mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -217,14 +210,10 @@ textarea:focus, input:focus{
 
 
 .zoom {
-    /* padding: 50px; */
-    /* background-color: green; */
-    transition: transform .2s; /* Animation */
-    /* width: 200px; */
-    /* height: 200px; */
+    transition: transform .2s; 
     margin: 0 auto;
   }
   
   .zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.5); 
   }

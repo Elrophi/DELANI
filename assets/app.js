@@ -1,3 +1,4 @@
+// what we do section
 $(document).ready(function(){
     $('#design-text').hide();
     $('#design-image').click(function(){
@@ -34,6 +35,8 @@ $(document).ready(function(){
     });
 });
 
+
+// Portfolio section
 $(document).ready(function(){
     $('#lay1').hide();
     $('#one').mouseover(function(){
@@ -107,12 +110,13 @@ $(document).ready(function(){
 });
 
 
+// email function
 function formMessage(){
     let name = document.getElementById('mce-FNAME').value
     if(document.getElementById('mce-FNAME').value=="")
     alert("please fill in the blanks! Thank you......");
     else{
-        alert(name + "Thank you for contacting us! You are now subscribed")
+        alert(name + " Thank you for contacting us! You are now subscribed")
     }
 }
 
