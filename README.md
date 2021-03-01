@@ -30,7 +30,7 @@ ___\*Click on author's name to access live-site*___
 |Enter Name  | John Doe |
 |Enter Email |  johndoe@gmail.com|
 |Enter message| "I want to submit a project"|
-|Click Button |onSubmit() | Alertbox("response received")|
+|Click Button |onSubmit() | Alertbox(name + "response received") tracked by mailchimp|
 
 >Function used in the project
 
