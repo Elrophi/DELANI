@@ -98,3 +98,30 @@ $(document).ready(function(){
     });
 });
 
+
+function formMessage(){
+    if(document.getElementById('mce-FNAME').value=="")
+    alert("please fill in the blanks! Thank you......");
+    else{
+        alert("Thank you for filling! You are now subscribed")
+    }
+}
+
+$(".Hover").hover(function(){
+    $(this).animate({opacity:'1'});
+  },
+  function(){
+    $(this).animate({opacity:'0'});
+  })
+$('.submit').click(function () {
+        var Name = $('#mce-FNAME').val();
+        var Email = $('#mce-EMAIL').val();
+        var Message = $('#mce-MESSAGE');
+        var key ='a56358f5f2dbbdea9651a8d8217b0b1e-us1-us4';
+        if (Name == '' || Email == '' || Message == '') {
+            alert('Please make sure you have filled in the form correctly!');
+        } else {
+            alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
+        }
+  });
+});

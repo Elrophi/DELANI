@@ -111,44 +111,100 @@
     <section>
         <div class="container portfolio">
             <h1 class="text-center">PORTFOLIO</h1>
-            <div class="row">
+            <div class="row" id="work">
                 <div class="col-md-3" id="one">
-                    <img  src="./assets/portfolio/work4.jpg" alt="">
+                    <img  src="./assets/portfolio/work4.jpg" alt="" id="one">
                     <p id="lay1" class="text">Dark</p>
                 </div>
                 <div class="col-md-3" id="two">
-                    <img  src="./assets/portfolio/work3.jpg" alt="">
+                    <img  src="./assets/portfolio/work3.jpg" alt="" id="two">
                     <p id="lay2"></p>
                 </div>
                 <div class="col-md-3" id="three">
-                    <img src="./assets/portfolio/work2.jpg" alt="">
+                    <img src="./assets/portfolio/work2.jpg" alt="" id="three">
                     <p id="lay3"></p>
                 </div>
                 <div class="col-md-3" id="four">
-                    <img src="./assets/portfolio/work1.jpg" alt="">
+                    <img src="./assets/portfolio/work1.jpg" alt="" id="four">
                     <p id="lay4"></p>
                 </div>
+                <div class="row" id="work">
                 <div class="col-md-3" id="five">
-                    <img src="./assets/portfolio/work5.jpg" alt="">
+                    <img src="./assets/portfolio/work5.jpg" alt="" id="five">
                     <p id="lay5"></p>
                 </div>
                 <div class="col-md-3" id="six">
-                    <img  src="./assets/portfolio/work6.jpg" alt="">
+                    <img  src="./assets/portfolio/work6.jpg" alt="" id="six">
                     <p id="lay6"></p>
                 </div>
                 <div class="col-md-3" id="seven">
-                    <img  src="./assets/portfolio/work7.jpg" alt="">
+                    <img  src="./assets/portfolio/work7.jpg" alt="" id="seven">
                     <p id="lay7"></p>
                 </div>
                 <div class="col-md-3" id="eight">
-                    <img  src="./assets/portfolio/work8.jpg" alt="">
+                    <img  src="./assets/portfolio/work8.jpg" alt="" id="eight">
                     <p id="lay8"></p>
+                </div>
                 </div>
             </div>
         </div>
     </section>
 
-   
+    <div class="Portfolio">
+        <h4 style="text-align: center;">PORTFOLIO</h4>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work1">
+              <img src="assets/portfolio/work1.jpg" alt="Weather information image" width="100%">
+            <div class="Hover">
+             <p id=Hover_designKenya>Weather Information</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work2">
+              <img src="assets/portfolio/work2.jpg" alt="Design Kenya image" width="100%">
+            <div class="Hover">
+              <p id=Hover_designKenya>Design Kenya Pyramids</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work3">
+              <img src="assets/portfolio/work3.jpg" alt="Ontario Security image" width="100%">
+            <div class="Hover">
+              <p id=Hover_designKenya>Ontario Security</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images " id="work4">
+              <img src="assets/portfolio/work4.jpg" alt="Design image" width="100%">
+            <div class="Hover">
+              <p id=Hover_designKenya>Design Kenya</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work5">
+              <img src="./assets/portfolio/work5.jpg" alt="Let's chat image" width="100%"> 
+            <div class="Hover">
+                <p id=Hover_designKenya>Lets Chat</p>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work6">
+              <img src="assets/portfolio/work6.jpg" alt="Mobile App buttons image" width="100%">
+            <div class="Hover">
+              <p id=Hover_designKenya>Mobile App buttons</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work7">
+              <img src="assets/portfolio/work7.jpg" alt="Mock-up Kenya_burned logo" width="100%">
+            <div class="Hover">
+              <p id=Hover_designKenya>Mock-up Kenya_burned logo</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work8">
+              <img src="assets/portfolio/work8.jpg" alt="Giraffe restaurant" width="100%">
+            <div class="Hover">
+              <p id=Hover_designKenya>Giraffe restaurant</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
         <section>
             <div class="container-fluid contact">
@@ -177,8 +233,8 @@
                                     <div class="response" id="mce-error-response" style="display:none"></div>
                                     <div class="response" id="mce-success-response" style="display:none"></div>
                                 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c8d936677eac9e7f99a617146_3c77bbcd39" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c8d936677eac9e7f99a617146_3c77bbcd39" tabindex="-1" value="" onclick="formMessage()"></div>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" onclick="formMessage()"></div>
                             </div>
                         </div>
                     </form>
