@@ -24,7 +24,7 @@ ___\*Click on author's name to access live-site*___
 1. Use the Live Server to run the live site or run the html file to any browser of your choice.
 1. Done!
 
-### BDD FOR THE AKAN NAMES PROJECT
+### BDD FOR DELANI STUDIO CONTACT FORM
 | BEHAVIOUR  |  INPUT| OUTPUT |
 | -----------|-------| ---------|
 |Enter Name  | John Doe |
