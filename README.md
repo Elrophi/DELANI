@@ -36,8 +36,13 @@ ___\*Click on author's name to access live-site*___
 
 ```javascript
 jquery function
-$(document).ready(functioin(){
-    $('#id).hide();
+$(document).ready(function(){
+    $('#id').hide();
+    $('#id').mouseover(function(){
+        $('#id').show();
+    }).mouseout(function(){
+        $('#id').hide();
+    });
 });
 
 }
