@@ -193,6 +193,9 @@ textarea:focus, input:focus{
     color: white;
     background-color: rgba(0,0,0,0.5);
     font-family: 'Reggae One', cursive;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
