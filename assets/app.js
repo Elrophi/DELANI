@@ -35,6 +35,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $('#lay1').hide();
     $('#one').mouseover(function(){
         $('#lay1').show()
     }).mouseout(function(){
@@ -43,6 +44,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $('#lay2').hide();
     $('#two').mouseover(function(){
         $('#lay2').show();
     }).mouseout(function(){
@@ -51,6 +53,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $('#lay3').hide();
     $('#three').mouseover(function(){
         $('#lay3').show();
     }).mouseout(function(){
@@ -59,6 +62,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $('#lay4').hide();
     $('#four').mouseover(function(){
         $('#lay4').show();
     }).mouseout(function(){
@@ -67,6 +71,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $('#lay5').hide();
     $('#five').mouseover(function(){
         $('#lay5').show();
     }).mouseout(function(){
@@ -75,6 +80,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $('#lay6').hide();
     $('#six').mouseover(function(){
         $('#lay6').show();
     }).mouseout(function(){
@@ -83,6 +89,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $('#lay7').hide();
     $('#seven').mouseover(function(){
         $('#lay7').show();
     }).mouseout(function(){
@@ -91,6 +98,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $('#lay8').hide();
     $('#eight').mouseover(function(){
         $('#lay8').show();
     }).mouseout(function(){
